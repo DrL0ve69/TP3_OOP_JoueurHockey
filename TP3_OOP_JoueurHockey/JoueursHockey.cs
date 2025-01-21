@@ -35,5 +35,21 @@ namespace TP3_OOP_JoueurHockey
                 $"Position: {Position}, Nombre de buts : {NbButs}, Nombre de parties jouées : {NbPartiesJouees}\n" +
                 $"-----------------------------------------------------------------------------------------------";
         }
+        public JoueursHockey CopierJoueur() 
+        {
+            // Shallow copy
+            JoueursHockey joueurPrime = (JoueursHockey)MemberwiseClone();
+
+            // Voir DeepCopy()
+
+            return joueurPrime;
+        }
+        public override bool Equals(object? obj)
+        {
+            if (obj == null || obj.GetType() != GetType()) return false;
+            JoueursHockey objJoueur = (JoueursHockey)obj;
+            if (objJoueur.Nom == Nom && objJoueur.Prenom == Prenom && objJoueur.Numero == Numero)return true;
+            else return false;
+        }
     }
 }
