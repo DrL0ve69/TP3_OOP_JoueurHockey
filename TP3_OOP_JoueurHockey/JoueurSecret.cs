@@ -8,7 +8,7 @@ namespace TP3_OOP_JoueurHockey
 {
     internal class JoueurSecret
     {
-        public void secret() 
+        public void Secret() 
         {
             Console.WriteLine("C'est secret buddy!");
         }
