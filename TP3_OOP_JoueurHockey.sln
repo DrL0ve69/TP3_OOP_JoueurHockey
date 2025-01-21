@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP3_OOP_JoueurHockey", "TP3_OOP_JoueurHockey\TP3_OOP_JoueurHockey.csproj", "{DE9B1D31-EF6D-4D37-9F98-9BD39F78080B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP3_OOP_JoueurHockey", "TP3_OOP_JoueurHockey\TP3_OOP_JoueurHockey.csproj", "{DE9B1D31-EF6D-4D37-9F98-9BD39F78080B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_TP3_OOP_JoueurHockey", "unitTest_TP3_OOP_JoueurHockey\UnitTest_TP3_OOP_JoueurHockey.csproj", "{B06D4B35-8BE1-4CD9-99C4-4A3C0DA72E3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{DE9B1D31-EF6D-4D37-9F98-9BD39F78080B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE9B1D31-EF6D-4D37-9F98-9BD39F78080B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE9B1D31-EF6D-4D37-9F98-9BD39F78080B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06D4B35-8BE1-4CD9-99C4-4A3C0DA72E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06D4B35-8BE1-4CD9-99C4-4A3C0DA72E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06D4B35-8BE1-4CD9-99C4-4A3C0DA72E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06D4B35-8BE1-4CD9-99C4-4A3C0DA72E3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76263963-A701-401D-9C3E-38700B676C90}
 	EndGlobalSection
 EndGlobal
